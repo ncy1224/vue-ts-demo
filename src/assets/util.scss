@@ -1,0 +1,13 @@
+
+$designWidth: 1920;
+
+$designHeight: 1080;
+
+//px转为vw
+@function vw($px){
+    @return $px / $designWidth * 100vw;
+}
+//px转为vh
+@function vh($px){
+    @return $px / $designHeight * 100vh;
+}
